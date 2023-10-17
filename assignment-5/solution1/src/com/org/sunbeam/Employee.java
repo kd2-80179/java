@@ -45,6 +45,9 @@ abstract public class Employee {
 		return "Employee [firstname=" + firstname + ", lastname=" + lastname + ", ssnno=" + ssnno + "]";
 	}
 	
-	
+	public void calculate()
+	{
+		
+	}
 
 }

@@ -2,24 +2,23 @@ package com.app.fruits;
 
 public class orange extends Fruits
 {
-	String taste;
-    String color;
-	double weight;
-	String name;
-	boolean isfresh;
-    
-	public orange()
-	{
-		
+	
+	
+	public orange() {
+		super();
+		// TODO Auto-generated constructor stub
 	}
 
-	public orange(String taste,String color,double weight,String name,boolean isfresh) {
-		super(color,weight,name,isfresh);
-		this.taste = taste;
+	public orange(String color, double weight, String name, boolean isFresh) {
+		super(color, weight, name, isFresh);
+		// TODO Auto-generated constructor stub
 	}
+
 	@Override
-	public String toString() {
-		return "orange [taste=" + taste + "]";
+	public  void acceptFruits()
+	{
+		super.acceptFruits();
+		
 	}
 	
 	public String taste()

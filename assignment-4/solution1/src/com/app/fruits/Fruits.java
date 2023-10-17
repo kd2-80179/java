@@ -24,19 +24,17 @@ public class Fruits {
 		return "Fruits [color=" + color + ", weight=" + weight + ", name=" + name + ", getClass()=" + getClass()
 				+ ", hashCode()=" + hashCode() + ", toString()=" + super.toString() + "]";
 	}
-	public void acceptFruits
-	()
+	public void acceptFruits()
 	{
 		Scanner sc=new Scanner(System.in);
-		System.out.println("enter color=+");
+		System.out.println("enter color=");
 		this.color=sc.next();
-		System.out.println("enter weight=+");
+		System.out.println("enter weight=");
 		     this.weight=sc.nextDouble();
 	
-		System.out.println("enter name=+");
+		System.out.println("enter name=");
 		this.name=sc.next();
-		System.out.println("enter is fresh");
-		     this.isFresh=sc.hasNext();
+		
 		
 	}
 	 public void displayFruits()
@@ -70,6 +68,16 @@ public class Fruits {
 	}
 	public void setFresh(boolean isFresh) {
 		this.isFresh = isFresh;
+	}
+	public String taste() {
+		// TODO Auto-generated method stub
+		return "no specific taste";
+		
+				
+	
+	
+	
+	
 	}
 	
 	

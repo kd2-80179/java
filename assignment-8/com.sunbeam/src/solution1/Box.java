@@ -29,7 +29,7 @@ public void set ( t val ) {this.obj=val;}
 		m.displayData();
 	    Box<manager> b1 = new Box<>(); 
 	    b1.set(m);
-		System.out.println("manager total salary="+b1.getcalculate());
+		System.out.println("manager total salary="+b1.getcalculatesalary());
 	    System.out.println("manager calculate salary="+get.calculatesalary());
 	    
 	}
