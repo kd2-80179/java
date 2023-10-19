@@ -47,6 +47,7 @@ List<Employee> employeelist= new LinkedList<Employee>();
 				employeelist.remove(index);
 				System.out.println("delete all employee");
 				
+				break;
 				
 			case 3:
 				System.out.println("find a employee in list");
@@ -61,7 +62,7 @@ List<Employee> employeelist= new LinkedList<Employee>();
 			    else
 			    	System.out.println("employee is found");
 			    
-			
+			break;
 			case 4:
 				class  EmployeeComparator implements Comparator<Employee>{
 					 public int compare(Employee e1,Employee e2 ) {
@@ -95,6 +96,7 @@ List<Employee> employeelist= new LinkedList<Employee>();
 					Employee newEmp = new Employee();
 					newEmp.accept();
 					employeelist.set(index, newEmp);
+					break;
 					}
 				  }
 				

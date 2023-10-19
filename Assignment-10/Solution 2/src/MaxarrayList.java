@@ -3,13 +3,14 @@ import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-
+public static void main(String[] args){
  
- abstract class MaxarrayList_Comparator implements Comparator<MaxarrayList_Comparator> {
+class MaxarrayList_Comparator implements Comparator<MaxarrayList_Comparator> {
 		@Override
 		public int compare(MaxarrayList e1, Student e2) {
 			int diff = e2.getName().compareTo(e1.getName());
-			if (diff == 0)
+			return 0;
+			}
 				
 		list1.add("sonam");
 		list1.add("pgdac");
@@ -20,11 +21,11 @@ import java.util.List;
 		for (Integer ele : list1) {
 			System.out.println(ele);
 		}
-		Collections.length(list);
-		System.out.println("length List: " + list);
+	
+		System.out.println("length List: " + Collections.max(list));
 		
 		
-		
+		}
 		
 
 	
