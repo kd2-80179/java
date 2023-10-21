@@ -1,16 +1,11 @@
-
-package solution1;
-
-
-
-
+package com.sunbeam;
 	import java.util.ArrayList;
 	import java.util.Comparator;
 	import java.util.List;
 import java.util.Objects;
 import java.util.Scanner;
 
-	public class Book {
+	public class Book1 {
 		String isbn;
 		String tittle;
 		String author;
@@ -74,7 +69,6 @@ import java.util.Scanner;
 		public String getIsbn() {
 			return isbn;
 		}
-		
 
 		@Override
 		public String toString() {
@@ -95,7 +89,7 @@ import java.util.Scanner;
 				return false;
 			if (getClass() != obj.getClass())
 				return false;
-			Book other = (Book) obj;
+			Book1 other = (Book1) obj;
 			return Objects.equals(author, other.author) && Objects.equals(isbn, other.isbn)
 					&& Double.doubleToLongBits(price) == Double.doubleToLongBits(other.price)
 					&& quantity == other.quantity && Objects.equals(tittle, other.tittle);
@@ -113,4 +107,5 @@ import java.util.Scanner;
 	}
 
 	
+
 

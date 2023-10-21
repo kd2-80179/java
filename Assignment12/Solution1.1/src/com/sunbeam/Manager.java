@@ -98,8 +98,8 @@ public class Manager implements employee {
 	public static void main(String[] args) {
 		employee[] arr = new employee[3];
 		arr[0] = new Manager();
-		//arr[1] = new clerk(double);
-		//arr[2] = new labor();
+		arr[1] = new clerk(double);
+		arr[2] = new labor();
 		double totalIncome = employee.calcTotalIncome(arr);
 		System.out.println("total income");
 	}
